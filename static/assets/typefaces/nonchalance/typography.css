@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/* Nonchalance */
+@font-face {
+    font-family: "Nonchalance";
+    src: url("NONCHALANCE-BOLD.otf") format("opentype");
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Nonchalance";
+    src: url("NONCHALANCE-MEDIUM.otf") format("opentype");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Nonchalance";
+    src: url("NONCHALANCE-REGULAR.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}

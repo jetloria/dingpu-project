@@ -1,0 +1,7 @@
+/* Black Signature */
+@font-face {
+    font-family: "Black Signature";
+    src: url("signature.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}

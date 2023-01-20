@@ -1,0 +1,62 @@
+:root {
+    --font-sans: 'Poppins', sans-serif;
+    --font-display: 'Montserrat', sans-serif;
+    --font-sans-one: 'Avenir Next LT Pro', sans-serif;
+    --font-sans-one-condensed: 'Avenir Next LT Pro Condensed', sans-serif;
+    --font-logo: 'Nonchalance', sans-serif;
+    --font-cursive: 'Black Signature', cursive;
+    --font-cursive1: 'Smooch', cursive;
+
+    --font-serif-l: 'Grifo L', serif;
+    --font-serif-m: 'Grifo M', serif;
+    --font-serif-s: 'Grifo S', serif;
+
+    --primary-main: #20ACE2; /*25AAE1*/
+    --primary-main-light: #9bcadf; /*DBF3FF*/
+    --primary-main-dark: #0A2C5A;
+
+    --primary-dark: #0A2C5A;
+    --primary-grey-dark: #4B4B4B;
+    --primary-grey: #9F9F9B;
+    --primary-grey-light: #EAEAEA;
+    --primary-light: #FFFFFF;
+
+    --primary-dirty-white: #FAFAFA;
+    --primary-aqua-spring: #E7EDE7;
+    --primary-greyer: #F3F3F3;
+    --primary-greyest: #FAFAFA;
+
+    --secondary-main: #5AE1FE;
+
+    --color-danger: #F94F51;
+    --color-warning: #FEAF46;
+    --color-info: #00C1E0;
+    --color-success: #02B854;
+
+    --color-border: #eaeefb;
+
+    --shadow-main:  ;
+    --shadow-main-light: 0px 5px 15px -5px rgb(155, 202, 223,);
+    --shadow-dark: 0px 5px 15px -5px rgb(18, 18, 18, 0.75);
+    --shadow-grey-dark: 0px 5px 15px -5px rgb(72, 72, 72, 0.75);
+    --shadow-grey: 0px 5px 15px -5px rgba(159, 159, 155, 0.75);
+    --shadow-grey-light: 0px 5px 15px -5px rgb(234, 234, 234, 0.75);
+    --shadow-light: 0px 5px 15px -5px rgba(255, 255, 255, 0.75);
+    --shadow-aqua-spring: 0px 5px 15px -5px rgba(230, 230, 226, 0.75);
+
+    --media-sm: 400px;
+    --media-mob: 600px;
+    --media-tab: 800px;
+    --media-md: 1200px;
+    --media-lg: 1600px;
+
+    --mobile-s-width: 320px;
+    --mobile-m-width: 375px;
+    --mobile-l-width: 425px;
+    --tablet-width: 768px;
+    --laptop-width: 1024px;
+    --laptop-m-width: 1200px;
+    --laptop-l-width: 1440px;
+    --desktop-width: 1680px;
+    --wide-width: 2560px;
+}

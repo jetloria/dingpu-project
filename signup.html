@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<meta name="author" content="IntegrityNet Group of Companies">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+		
+	<meta name="theme-color" content="#20ACE2">
+
+	<title>
+		Sign up · Pudding
+	</title>
+
+	<link rel="shortcut icon" href="static/assets/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="static/assets/favicon.ico" type="image/x-icon">
+
+	<link rel="stylesheet" href="static/assets/css/base.css">
+	<link rel="stylesheet" href="static/assets/css/vendor.css">
+	<link rel="stylesheet" href="static/assets/css/main.css">
+	<link rel="stylesheet" href="static/assets/css/custom.css">
+
+	<link rel="stylesheet" href="static/assets/plugins/splide/css/splide.min.css">
+	
+	<script src="static/assets/js/modernizr.js"></script>
+	<script src="static/assets/js/pace.min.js"></script>
+
+	<link href="https://unpkg.com/pattern.css" rel="stylesheet">
+</head>
+
+<body id="top" class="pudding-index">
+	<div id="preloader">
+		<div class="logo-loader">
+			<img src="static/assets/img/logo/pudding-logo.svg" alt="">
+		</div>
+
+		<div id="loader"></div>
+	</div>
+
+	<header class="s-header">
+		<div class="header-logo">
+			<a class="site-logo" href="./">
+				<div class="logo-text">
+					<img src="static/assets/img/logo/pudding-logo.svg" alt="">
+				</div>
+			</a>
+		</div>
+
+		<nav class="row header-nav-wrap wide">
+			<ul class="header-social">
+				<span class="login-text">Already have an account?</span>
+				<a href="login.html" class="pudding-btn dark-btn shadow-dark">Log in</a>
+			</ul>
+
+			<ul hidden class="header-social">
+				<li><a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+				<li><a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+				<li><a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+			</ul>
+		</nav>
+
+		<a class="header-menu-toggle" href="#"><span>Menu</span></a>
+	</header>
+			
+	<section id="signup" class="s-section section--main-light target-section">
+		<div class="row narrow section-header">
+			<div class="col-full center-align">
+				<img src="static/assets/img/logo/pudding-icon-100.png" alt="" class="image-size-64">
+
+				<!-- <h1 class="pudding-display"></h1> -->
+
+				<h4 class="pudding-title--1 mt-10">
+					Get started with a Free Pudding account. <br>
+					No credit card required.
+				</h4>
+			</div>
+		</div>
+
+		<div class="row narrowest">
+			<div class="col-full">
+				<div class="pudding-generic-card no-hover">
+					<div>
+						<label for="signupFirstName">First Name</label>
+						<input class="full-width" name="firstname" type="text" placeholder="First Name" id="signupFirstName">
+					</div>
+					
+					<div>
+						<label for="signupLastName">Last Name</label>
+						<input class="full-width" name="lastname" type="text" placeholder="Last Name" id="signupLastName">
+					</div>
+
+					<div>
+						<label for="signupEmail">Email</label>
+						<input class="full-width" name="email" type="email" placeholder="Email" id="signupEmail">
+					</div>
+
+					<div>
+						<label for="signupLastName">Username</label>
+						<input class="full-width" name="username" type="text" placeholder="Username" id="signupUsername">
+					</div>
+
+					<div>
+						<label for="signupPassword">Password (12+ characters)</label>
+						<input class="full-width" name="password" type="password" placeholder="Password (12+ characters)" id="signupPassword">
+					</div>
+
+					<label hidden class="add-bottom">
+						<input type="checkbox">
+						<span class="label-text">I accept the <a href="">Pudding Terms of Service</a></span>
+					</label>
+
+					<p class="form-alert" hidden></p>
+
+					<input class="btn btn--primary full-width sign-up-btn" value="Sign up">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div hidden class="seo-section"></div>
+
+	<div hidden class="cookie-alert">
+		<div class="cookie-wrapper">
+			<div class="cookie-text">By continuing to use this website you consent to the use of cookies in accordance with our <a href="#">cookie policy</a>.</div>
+
+			<div class="cookie-control">
+				<a class="pudding-cta-btn cookie-close">Close</a>
+			</div>
+		</div>
+	</div>
+
+	<script src="static/assets/js/jquery-3.2.1.min.js"></script>
+	<script src="static/assets/js/plugins.js"></script>
+
+	<script src="static/assets/plugins/flickity/flickity.pkgd.min.js"></script>
+	<script src="static/assets/plugins/flickity/flickity-fade.js"></script>
+	<script src="static/assets/plugins/highlight-js/highlight.min.js"></script>
+	<script src="static/assets/plugins/highlight-js/go.min.js"></script>
+	<script src="static/assets/plugins/splide/js/splide.min.js"></script>
+
+	<script src="static/assets/js/main.js"></script>
+	<script src="static/assets/js/common.js"></script>
+
+	<script>
+		hljs.highlightAll();
+
+		$('.switch-item').on('click', function() {
+			$('.switch-item').removeClass('active');
+			$(this).addClass('active');
+			$('.switch-block').addClass('hidden');
+			$('.switch-block.' + $(this).attr('data-switch')).removeClass('hidden');
+		});
+
+		$('.supported-language--list-item').on('click', function () {
+			$('.supported-language--list-item').removeClass('active');
+			$(this).addClass('active');
+
+			$('.supported-language--content').addClass('hidden');
+			$('.supported-language--content.' + $(this).attr('data-cat')).removeClass('hidden');
+		});
+
+		// $(".sign-up-btn").on("click", function()
+		// {
+		// 	var form_alert = $(".form-alert");
+
+		// 	$.ajax({
+		// 		url: "/api/signup",
+		// 		type: "POST",
+		// 		data: {
+		// 			"firstname": $("[name='firstname']").val(),
+		// 			"lastname": $("[name='lastname']").val(),
+		// 			"email": $("[name='email']").val(),
+		// 			"username": $("[name='username']").val(),
+		// 			"password": $("[name='password']").val(),
+		// 		},
+		// 		dataType: "json",
+		// 		success: function (data)
+		// 		{
+		// 			if (data.status == "ok")
+		// 			{
+		// 				var session = data.session;
+		// 				window.location.href = "http://" + common.cookie.get('url') + "/console/dashboard/?session=" + session;
+		// 				common.cookie.delete('url');
+		// 			}
+
+		// 			if (data.status == "error")
+		// 			{
+		// 				form_alert.removeAttr("hidden", "hidden").text(data.err_msg);
+		// 			}
+		// 		},
+		// 		error: function (jqXHR, textStatus, errorThrown)
+		// 		{
+		// 			console.log(jqXHR);
+		// 			console.log(textStatus);
+		// 			console.log(errorThrown);
+		// 		}
+		// 	});
+		// });
+	</script>
+</body>
+</html>

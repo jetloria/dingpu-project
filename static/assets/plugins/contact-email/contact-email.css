@@ -1,0 +1,207 @@
+#contact-form-loading {
+  background: rgba(0, 0, 0, 0.4) !important;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 999 !important;
+}
+
+.spinner-img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  border-top: 16px solid rgba(0, 0, 0, 0.5);
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  -moz-animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from {
+    bottom: -100px;
+    opacity: 0
+  }
+
+  to {
+    bottom: 0px;
+    opacity: 1
+  }
+}
+
+@keyframes animatebottom {
+  from {
+    bottom: -100px;
+    opacity: 0
+  }
+
+  to {
+    bottom: 0;
+    opacity: 1
+  }
+}
+
+#spinner-msg {
+  color: #ff3300
+}
+
+.black {
+  border: rgba(0, 0, 0, 0.5) 3px solid !important;
+  background: rgba(255, 255, 255, 0.5) !important;
+}
+
+/*#contact-form{
+    padding:5px;
+  }
+  
+  #contact-form input, #contact-form textarea{
+    color:#fff !important;
+    background:none !important;
+    border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    -o-border-radius: 0px !important;
+    border: none !important;
+    font-family: Roboto,sans-serif !important;
+    font-weight: 300;
+  }*/
+
+
+
+
+#order-form-loading {
+  background: rgba(0, 0, 0, 0.8) !important;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+}
+
+.order-spinner-img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  border-top: 16px solid rgba(0, 0, 0, 0.5);
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  -moz-animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Add animation to "page content" */
+.order-animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from {
+    bottom: -100px;
+    opacity: 0
+  }
+
+  to {
+    bottom: 0px;
+    opacity: 1
+  }
+}
+
+@keyframes animatebottom {
+  from {
+    bottom: -100px;
+    opacity: 0
+  }
+
+  to {
+    bottom: 0;
+    opacity: 1
+  }
+}
+
+#order-spinner-msg {
+  color: #ff3300
+}
+
+#order-form {
+  padding: 5px;
+}
+
+#order-form input,
+#order-form textarea {
+  color: #fff !important;
+  background: rgba(255, 255, 255, 0.2) !important;
+}
+
+.hidden {
+  display: none !important;
+}

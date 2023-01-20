@@ -1,0 +1,212 @@
+@charset "UTF-8";
+
+/* Grifo Family */
+@font-face {
+    font-family: "Grifo L";
+    src: url("GrifoL-Black.otf") format("opentype");
+    font-style: normal;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Grifo L";
+    src: url("GrifoL-BlackItalic.otf") format("opentype");
+    font-style: italic;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Grifo L";
+    src: url("GrifoL-Bold.otf") format("opentype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Grifo L";
+    src: url("GrifoL-BoldItalic.otf") format("opentype");
+    font-style: italic;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Grifo L";
+    src: url("GrifoL-Italic.otf") format("opentype");
+    font-style: italic;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Grifo L";
+    src: url("GrifoL-Light.otf") format("opentype");
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Grifo L";
+    src: url("GrifoL-LightItalic.otf") format("opentype");
+    font-style: italic;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Grifo L";
+    src: url("GrifoL-Medium.otf") format("opentype");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Grifo L";
+    src: url("GrifoL-MediumItalic.otf") format("opentype");
+    font-style: italic;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Grifo L";
+    src: url("GrifoL.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Grifo M";
+    src: url("GrifoM-Black.otf") format("opentype");
+    font-style: normal;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Grifo M";
+    src: url("GrifoM-BlackItalic.otf") format("opentype");
+    font-style: italic;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Grifo M";
+    src: url("GrifoM-Bold.otf") format("opentype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Grifo M";
+    src: url("GrifoM-BoldItalic.otf") format("opentype");
+    font-style: italic;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Grifo M";
+    src: url("GrifoM-Italic.otf") format("opentype");
+    font-style: italic;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Grifo M";
+    src: url("GrifoM-Light.otf") format("opentype");
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Grifo M";
+    src: url("GrifoM-LightItalic.otf") format("opentype");
+    font-style: italic;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Grifo M";
+    src: url("GrifoM-Medium.otf") format("opentype");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Grifo M";
+    src: url("GrifoM-MediumItalic.otf") format("opentype");
+    font-style: italic;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Grifo M";
+    src: url("GrifoM.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Grifo S";
+    src: url("GrifoS-Black.otf") format("opentype");
+    font-style: normal;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Grifo S";
+    src: url("GrifoS-BlackItalic.otf") format("opentype");
+    font-style: italic;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Grifo S";
+    src: url("GrifoS-Bold.otf") format("opentype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Grifo S";
+    src: url("GrifoS-BoldItalic.otf") format("opentype");
+    font-style: italic;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Grifo S";
+    src: url("GrifoS-Italic.otf") format("opentype");
+    font-style: italic;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Grifo S";
+    src: url("GrifoS-Light.otf") format("opentype");
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Grifo S";
+    src: url("GrifoS-LightItalic.otf") format("opentype");
+    font-style: italic;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Grifo S";
+    src: url("GrifoS-Medium.otf") format("opentype");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Grifo S";
+    src: url("GrifoS-MediumItalic.otf") format("opentype");
+    font-style: italic;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Grifo S";
+    src: url("GrifoS.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
